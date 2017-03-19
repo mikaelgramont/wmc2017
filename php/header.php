@@ -8,10 +8,11 @@ class Header
 			if (empty($label)) {
 				continue;
 			}
+			$url = Utils::getBaseUrl() . $item->url;
 			$class = $currentUrl == $item->url ? 'selected' : '';
 			$output .= <<<HTML
 				<li class="{$class}">
-					<a href="{$item->url}">{$label}</a>
+					<a href="{$url}">{$label}</a>
 				</li>
 
 HTML;

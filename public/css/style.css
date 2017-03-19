@@ -22,14 +22,19 @@ a.cta {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-size: 1.25em;
+}
+
 
 /* LAYOUT */
 
-.wrapper {
+.wrapper,
+footer {
 	width: 850px;
 	margin: 0 auto;
 	background-color: #1B1703;
-}
+}	
 
 .navigation-menu {
     display: flex;
@@ -44,13 +49,21 @@ a.cta {
 .navigation-menu li {
 	flex-grow: 1;
 	text-align: center;
-	padding: 0 15px;
+	padding: 0 10px;
+}
+
+.navigation-menu .selected a,
+.navigation-menu .selected a:visited {
+	background-color: #e4dac3;
+	color: #000;
 }
 
 .navigation-menu a,
 .navigation-menu a:visited {
 	display: inline-block;
+	box-sizing: border-box;
 	width: 100%;
+	padding: 5px;
 	color: #e4dac3;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -61,5 +74,35 @@ a.cta {
 }
 
 .main {
+	min-height: 40vh;
+    border-top: 2px solid #e4dac3;
 	padding: 20px;
+}
+
+.main section {
+	width: 80%;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #e4dac3;
+	text-align: center;
+}
+
+footer a {
+	background-color: #e4dac3;
+	display: inline-block;
+    padding: 10px;
+    margin: 0 20px 20px;
+    text-decoration: none;
+}
+
+footer a,
+footer a:visited {
+	color: #000;	
+}
+
+/* Convenience classes */
+.fillContainer {
+	max-width: 100%;
 }
