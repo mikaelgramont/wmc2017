@@ -7,8 +7,7 @@ require_once('head.php');
 require_once('header.php');
 require_once('utils.php');
 define('BASE_URL', Utils::getBaseUrl());
-
-$currentPageId = Utils::getCurrentPageId($_SERVER['SCRIPT_URL']);
+$currentPageId = Utils::getCurrentPageId($_SERVER['REQUEST_URI']);
 $pageInfo = Utils::getPageInfo($MENU_ENTRIES, $currentPageId);
 ?>
 <html>
