@@ -8,9 +8,11 @@
 <p>Registration will be done in 2 steps:</p>
 <ol>
 	<li>
-		<a class="cta" href="https://goo.gl/opD4Yw" target="_blank">Fill out the form</a> Please do this as soon as possible!
+		<a class="cta" href="https://goo.gl/opD4Yw" target="_blank">Fill out the form</a>
+		<span class="wrapOnMobile">Please do this as soon as possible!</span>
 	</li>
 	<li>
-		<a class="cta" disabled href="javascript:(function(){return false})()" target="_blank">Pay us with Paypal</a> (coming soon)
+		<a class="cta" disabled href="javascript:(function(){return false})()" target="_blank">Pay us with Paypal</a>
+		<span class="wrapOnMobile">(coming soon)</span>
 	</li>
 </ol>

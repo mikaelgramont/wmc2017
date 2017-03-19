@@ -73,6 +73,13 @@ footer {
 	text-decoration: underline;
 }
 
+.banner {
+    display: block;
+	width: 850px;
+	height: 312px;
+	background: url('../images/banner.jpg');
+}
+
 .main {
 	min-height: 40vh;
     border-top: 2px solid #e4dac3;
@@ -105,4 +112,31 @@ footer a:visited {
 /* Convenience classes */
 .fillContainer {
 	max-width: 100%;
+}
+
+
+/* Mobile */
+@media(max-width: 850px) {
+	.wrapper,
+	footer {
+		width: 100%;
+	}	
+
+	.main section {
+		width: 100%;
+	}
+
+	.navigation-menu {
+		flex-wrap: wrap;
+	}
+
+	.banner {
+		margin: 0 auto;
+	    width: 412px;
+	    height: 280px;
+		background: url('../images/banner-m.jpg');
+	}
+	.wrapOnMobile {
+		display: block;
+	}
 }

@@ -21,8 +21,7 @@ $pageInfo = Utils::getPageInfo($MENU_ENTRIES, $currentPageId);
 				<ul role="nav" class="navigation-menu">
 <?php echo Header::menuContent($MENU_ENTRIES, $currentPageId) ?>
 				</ul>
-				<a href="<?php echo BASE_URL ?>">
-					<img role="banner" src="images/banner.jpg" alt="Banner of the championships.">
+				<a aria-hidden="true" class="banner" href="<?php echo BASE_URL ?>">
 				</a>
 			</header>
 			<main role="main" class="main">
