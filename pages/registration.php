@@ -12,7 +12,8 @@
 		<span class="wrapOnMobile">Please do this as soon as possible!</span>
 	</li>
 	<li>
-		<a class="cta" disabled href="javascript:(function(){return false})()" target="_blank">Pay us with Paypal</a>
+		<a class="cta" disabled href="javascript:(function(){return false})()" target="_blank">Pay early with Paypal (optional)</a>
 		<span class="wrapOnMobile">(coming soon)</span>
 	</li>
 </ol>
+Discount for early payment! 30&euro; instead of 40&euro;!
