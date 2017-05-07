@@ -12,8 +12,32 @@
 		<span class="wrapOnMobile">Please do this as soon as possible!</span>
 	</li>
 	<li>
-		<a class="cta" disabled href="javascript:(function(){return false})()" target="_blank">Pay early with Paypal (optional)</a>
-		<span class="wrapOnMobile">(coming soon)</span>
+		<a class="cta" disabled href="javascript:(function(){return false})()" id="paypal-cta">Pay early with Paypal (optional)</a>
+		<div class="paypal-form">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="B99ADVGPBLVM2">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Number of people">Number of people</td></tr><tr><td><select name="os0">
+					<option value="1 -">1 - €30,00 EUR</option>
+					<option value="2 -">2 - €60,00 EUR</option>
+					<option value="3 -">3 - €90,00 EUR</option>
+					<option value="4 -">4 - €120,00 EUR</option>
+					<option value="5 -">5 - €150,00 EUR</option>
+				</select> </td></tr>
+				<tr><td><input type="hidden" name="on1" value="Rider name(s)">Rider name(s)</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+				</table>
+				<input type="hidden" name="currency_code" value="EUR">
+				<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
 	</li>
 </ol>
 Discount for early payment! 30&euro; instead of 40&euro;!
+
+<script>
+	document.getElementById('paypal-cta').addEventListener('click', function(e) {
+		document.getElementsByClassName('paypal-form')[0].classList.add('expanded');
+	});
+</script>

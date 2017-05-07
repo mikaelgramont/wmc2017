@@ -4,6 +4,9 @@ class Header
 	public static function menuContent($items, $currentUrl) {
 		$output = '';
 		foreach ($items as $item) {
+			if (property_exists($item, 'skipMenuEntry') &&  $item->skipMenuEntry) {
+				continue;
+			}
 			$label = ucfirst($item->title);
 			if (empty($label)) {
 				continue;

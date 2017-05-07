@@ -26,6 +26,9 @@ h2 {
 	font-size: 1.25em;
 }
 
+select {
+	background: #eee;
+}
 
 /* LAYOUT */
 
@@ -139,4 +142,12 @@ footer a:visited {
 	.wrapOnMobile {
 		display: block;
 	}
+}
+
+/* Registration */
+.paypal-form {
+	display: none;
+}
+.paypal-form.expanded {
+	display: initial;
 }

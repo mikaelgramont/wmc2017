@@ -43,5 +43,17 @@ $MENU_ENTRIES = array(
 		'title' => 'contact',
 		'url' => 'contact',
 		'file' => 'contact.php'
-	]
+	],
+	(object) [
+		'skipMenuEntry' => true,
+		'title' => 'payment canceled',
+		'url' => 'registration-payment-canceled',
+		'file' => 'registration-payment-canceled.php'
+	],
+	(object) [
+		'skipMenuEntry' => true,
+		'title' => 'payment successful',
+		'url' => 'registration-payment-successful',
+		'file' => 'registration-payment-successful.php'
+	],
 );
