@@ -28,7 +28,7 @@
 				<tr><td><input type="hidden" name="on1" value="Rider name(s)">Rider name(s)</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
 				</table>
 				<input type="hidden" name="currency_code" value="EUR">
-				<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+				<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_paynow_107x26.png" border="0" name="submit" alt="Pay now">
 				<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 			</form>
 		</div>
