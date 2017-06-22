@@ -38,6 +38,7 @@ Discount for early payment! 30&euro; instead of 40&euro;!
 
 <script>
 	document.getElementById('paypal-cta').addEventListener('click', function(e) {
+		e.preventDefault();
 		document.getElementsByClassName('paypal-form')[0].classList.add('expanded');
 	});
 </script>
