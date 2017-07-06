@@ -1,11 +1,11 @@
 <?php
 define('ANALYTICS_ID', 'UA-87612341-1');
 define('SITE_NAME', 'World Mountainboard Championships');
-define('META', 'world mountainboard championships, allterrainboard, dirtboard, boardercross, freestyle');
+define('KEYWORDS', 'world mountainboard championships, allterrainboard, dirtboard, boardercross, freestyle');
 define('YEAR', '2017');
 $MENU_ENTRIES = array(
 	(object) [
-		'title' => 'Home',
+		'title' => '',
 		'url' => '',
 		'file' => 'home.php'
 	],

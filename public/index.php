@@ -13,6 +13,7 @@ $pageInfo = Utils::getPageInfo($MENU_ENTRIES, $currentPageId);
 <html>
 	<head>
 <?php echo Head::content(KEYWORDS, $pageInfo, 'css/style.css'); ?>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>
 		<div class="wrapper">

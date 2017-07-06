@@ -112,6 +112,18 @@ footer a:visited {
 	color: #000;	
 }
 
+.sponsor-list {
+	display: flex;
+	align-items: center;
+    justify-content: space-around;	
+    flex-wrap: wrap;
+}
+
+.sponsor {
+	width: 220px;
+	margin: 10px 0;
+}
+
 /* Convenience classes */
 .fillContainer {
 	max-width: 100%;
