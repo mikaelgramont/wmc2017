@@ -4,10 +4,37 @@
 		margin: 20px 0 50px;
 		font-size: 1.5em;
 	}
+	.badge-container {
+		min-height: 126px;
+    	max-height: 327px;		
+	}
+	.badge-widget {
+	    background-repeat: no-repeat;
+	    color: #fff !important;
+	    display: block;
+	    font-size: 14px;
+	    font-weight: 400;
+	    height: 32px;
+	    letter-spacing: -.5px;
+	    padding-top: 95px;
+	    text-align: center;
+	    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+	    text-decoration: none !important;
+	    width: 198px;
+		margin: 20px auto;
+		background-image: url(https://funds.gofundme.com/css/3.0_donate/gold/widget.png);
+		border: none;
+	}
 
 </style>
+<!--
 <p class="emphasis">
 	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a> They are subject to change after we double check official boardercross times though, so please bear with us.
+</p>
+-->
+<p class="emphasis badge-container">
+	Important! Our friends Matheus and Lucas had their video equipment stolen at the event. Please consider donating so that the mountainboard community can show how much it cares for its riders.
+	<a target="_blank" class="badge-widget" href="https://www.gofundme.com/help-replace-lucas-matheus-gear?utm_medium=wdgt" title="Visit this page now.">Click to Donate Now!</a>
 </p>
 
 <p>
