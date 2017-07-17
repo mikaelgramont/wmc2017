@@ -1,3 +1,17 @@
+<style>
+	.emphasis {
+		text-align: center;
+		margin: 20px 0 50px;
+		font-size: 1.5em;
+	}
+
+</style>
+<!--
+<p class="emphasis">
+	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a>
+</p>
+-->
+
 <p>
 The <a href="https://www.facebook.com/AssociationMountainboardCompiegne/" target="_blank">AMC, Compiègne’s mountainboarding club</a> and the <a href="https://www.mountainboardworld.org/" target="_blank">International Mountainboarding Association</a> are proud to present the 2017 Mountainboard World Championships!
 </p>

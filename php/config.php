@@ -40,6 +40,12 @@ $MENU_ENTRIES = array(
 		'file' => 'partners.php'
 	],
 	(object) [
+		'skipMenuEntry' => true,
+		'title' => 'results - 2017',
+		'url' => 'results-2017',
+		'file' => 'results2017.php'
+	],
+	(object) [
 		'title' => 'contact',
 		'url' => 'contact',
 		'file' => 'contact.php'
