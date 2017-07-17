@@ -3,6 +3,10 @@
 		width: 300px;
 	}
 
+	dl {
+		margin: 20px 0;
+	}
+
 	table {
 		width: 250px;
 		margin: 20px auto;
@@ -24,8 +28,9 @@
 
 </style>
 
-<p>The competition is over, here are the official results:</p>
+<p>The competition is over, here are the <em>*temporary*</em> results. They are most likely correct, but we are waiting for the official boardercross times from the company who ran the amazing timing system, which means some small changes might occur. Bear with us :)</p>
 <ul>
+	<li><a href="#overall">Overall champions</a></li>
 	<li><a href="#freestyle-open">Freestyle - Open</a></li>
 	<li><a href="#boardercross-open">Boardercross - Open</a></li>
 	<li><a href="#freestyle-masters">Freestyle - Masters</a></li>
@@ -37,8 +42,47 @@
 </ul>
 
 <div class="results-container">
+	<a name="overall"></a>
+	<h1>Overall champions</h1>
+	<dl>
+		<dt>Open</dt>
+		<dd>
+			<ol>
+				<li>Matt Brind</li>
+				<li>Evgeny Vybornyy</li>
+				<li>James Wanklyn</li>
+			</ol>
+		</dd>
+		<dt>Masters</dt>
+		<dd>
+			<ol>
+				<li>Pestu - Arkaitz	Ortuzar</li>
+				<li>Mikael Gramont</li>
+				<li>Jeroen de Booser</li>
+			</ol>
+		</dd>
+		<dt>Under 16</dt>
+		<dd>
+			<ol>
+				<li>Joris Le Diouron</li>
+				<li>Simon Gilloteaux</li>
+				<li>Axel Muratore</li>
+			</ol>
+		</dd>
+		<dt>Ladies</dt>
+		<dd>
+			<ol>
+				<li>Ola Tomalczyk</li>
+				<li>Manue Kedadra</li>
+				<li>Natasha Chernikova</li>
+			</ol>
+		</dd>
+	</dl>
+</div>
 
-	<a name="freestyle-open">
+<div class="results-container">
+	<h1>Open category</h1>
+	<a name="freestyle-open"></a>
 	<table>
 		<caption>Freestyle - Open</caption>
 		<tr>
@@ -147,7 +191,7 @@
 		</tr>
 	</table>
 
-	<a id="Boardercross-open" />
+	<a id="Boardercross-open"></a>
 	<table>
 		<caption>Boardercross - Open</caption>
 		<tr>
@@ -384,12 +428,13 @@
 		</tr>
 	</table>
 
-	<a id="freestyle-masters" />
+	<h1>Masters category</h1>
+	<a id="freestyle-masters"></a>
 	<table>
 		<caption>Freestyle - Masters</caption>
 		<tr>
 			<td>1</td>
-			<td>Arkaitz Ortuzar</td>
+			<td>Pestu - Arkaitz Ortuzar</td>
 		</tr>
 		<tr>
 			<td>2</td>
@@ -425,7 +470,7 @@
 		</tr>
 	</table>
 
-	<a id="boardercross-masters" />
+	<a id="boardercross-masters"></a>
 	<table>
 		<caption>Boardercross - Masters</caption>
 		<tr>
@@ -442,7 +487,7 @@
 		</tr>
 		<tr>
 			<td>4</td>
-			<td>Arkaitz Ortuzar</td>
+			<td>Pestu - Arkaitz Ortuzar</td>
 		</tr>
 		<tr>
 			<td>5</td>
@@ -530,7 +575,8 @@
 		</tr>
 	</table>
 
-	<a id="freestyle-u16" />
+	<h1>Under 16 category</h1>
+	<a id="freestyle-u16"></a>
 	<table>
 		<caption>Freestyle - Under 16</caption>
 		<tr>
@@ -563,7 +609,7 @@
 		</tr>
 	</table>
 
-	<a id="boardercross-u16" />
+	<a id="boardercross-u16"></a>
 
 	<table>
 		<caption>Boardercross - Under 16</caption>
@@ -601,7 +647,8 @@
 		</tr>
 	</table>
 
-	<a id="freestyle-ladies" />
+	<h1>Ladies category</h1>
+	<a id="freestyle-ladies"></a>
 	<table>
 		<caption>Freestyle - Ladies</caption>
 		<tr>
@@ -622,7 +669,7 @@
 		</tr>
 	</table>
 
-	<a id="freestyle-ladies" />
+	<a id="boardercross-ladies"></a>
 	<table>
 		<caption>Boardercross - Ladies</caption>
 		<tr>

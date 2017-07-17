@@ -6,11 +6,9 @@
 	}
 
 </style>
-<!--
 <p class="emphasis">
-	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a>
+	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a> They are subject to change after we double check official boardercross times though, so please bear with us.
 </p>
--->
 
 <p>
 The <a href="https://www.facebook.com/AssociationMountainboardCompiegne/" target="_blank">AMC, Compiègne’s mountainboarding club</a> and the <a href="https://www.mountainboardworld.org/" target="_blank">International Mountainboarding Association</a> are proud to present the 2017 Mountainboard World Championships!
