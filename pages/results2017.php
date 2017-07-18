@@ -91,15 +91,15 @@
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>James Wanklyn</td>
-		</tr>
-		<tr>
-			<td>3</td>
 			<td>Nicolas Geerse</td>
 		</tr>
 		<tr>
+			<td>3</td>
+			<td>James Wanklyn</td>
+		</tr>
+		<tr>
 			<td>4</td>
-			<td>Kody Stewart</td>
+			<td>Dawid Rząca</td>
 		</tr>
 		<tr>
 			<td>5</td>
@@ -107,7 +107,7 @@
 		</tr>
 		<tr>
 			<td>6</td>
-			<td>Hugo Heaney</td>
+			<td>Yvan Courtot</td>
 		</tr>
 		<tr>
 			<td>7</td>
@@ -115,23 +115,23 @@
 		</tr>
 		<tr>
 			<td>8</td>
-			<td>Dawid Rząca</td>
-		</tr>
-		<tr>
-			<td>9</td>
 			<td>Joel Treliving</td>
 		</tr>
 		<tr>
+			<td>9</td>
+			<td>Kody Stewart</td>
+		</tr>
+		<tr>
 			<td>10</td>
-			<td>Mason Moore</td>
+			<td>Hugo Heaney</td>
 		</tr>
 		<tr>
 			<td>11</td>
-			<td>Yvan Courtot</td>
+			<td>Mason Moore</td>
 		</tr>
 		<tr>
 			<td>12</td>
-			<td>Dominik Kamiński</td>
+			<td>Mael Baudoin</td>
 		</tr>
 		<tr>
 			<td>13</td>
@@ -139,7 +139,7 @@
 		</tr>
 		<tr>
 			<td>14</td>
-			<td>Mael Baudouin</td>
+			<td>Dominik Kamiński</td>
 		</tr>
 		<tr>
 			<td>15</td>
@@ -179,14 +179,10 @@
 		</tr>
 		<tr>
 			<td>24</td>
-			<td>Flavio Nottalgiovanni</td>
-		</tr>
-		<tr>
-			<td>25</td>
 			<td>Sonja Nicolau</td>
 		</tr>
 		<tr>
-			<td>26</td>
+			<td>25</td>
 			<td>Loic Vieira</td>
 		</tr>
 	</table>
