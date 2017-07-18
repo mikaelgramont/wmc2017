@@ -4,6 +4,11 @@
 		margin: 20px 0 50px;
 		font-size: 1.5em;
 	}
+	.emphasis span {
+		font-size: .667em;
+		display: block;
+		margin-top: 10px;
+	}
 	.badge-container {
 		min-height: 126px;
     	max-height: 327px;		
@@ -27,11 +32,12 @@
 	}
 
 </style>
-<!--
+
 <p class="emphasis">
-	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a> They are subject to change after we double check official boardercross times though, so please bear with us.
+	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a> 
+	<span>They are subject to change after we double check official boardercross times though, so please bear with us.Also, our apologies for getting some of the Freestyle results mixed up earlier, all fixed now.</span>
 </p>
--->
+
 <p class="emphasis badge-container">
 	Important! Our friends Matheus and Lucas had their video equipment stolen at the event. Please consider donating so that the mountainboard community can show how much it cares for its riders.
 	<a target="_blank" class="badge-widget" href="https://www.gofundme.com/help-replace-lucas-matheus-gear?utm_medium=wdgt" title="Visit this page now.">Click to Donate Now!</a>
