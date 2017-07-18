@@ -458,7 +458,7 @@
 		</tr>
 		<tr>
 			<td>8</td>
-			<td>Carlos Alberto Soto Mendoza</td>
+			<td>Carlos Alberto Sabino</td>
 		</tr>
 		<tr>
 			<td>9</td>
@@ -551,7 +551,7 @@
 		</tr>
 		<tr>
 			<td>21</td>
-			<td>Carlos Alberto Soto Mendoza</td>
+			<td>Carlos Alberto Sabinho</td>
 		</tr>
 		<tr>
 			<td>22</td>
