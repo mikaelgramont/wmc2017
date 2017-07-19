@@ -150,7 +150,7 @@
 		</tr>
 		<tr>
 			<td>16</td>
-			<td>Pierre Pierras</td>
+			<td>Pierre Pirras</td>
 		</tr>
 		<tr>
 			<td>17</td>
@@ -207,7 +207,7 @@
 		</tr>
 		<tr>
 			<td>4</td>
-			<td>Joel Treveling</td>
+			<td>Joel Treliving</td>
 		</tr>
 		<tr>
 			<td>5</td>
