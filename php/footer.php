@@ -7,7 +7,7 @@ class Footer
 
 		$sponsors = [
 			'amc.png', 'arc.png', 'colab.png', 'hauts-de-france.png', 'hertz.png',
-			'mbs.png', 'trampa.png', 'venette.png', 'weotv-picardie.png',
+			'trampa.png', 'venette.png', 'weotv-picardie.png',
 		];
 		$sponsorsHTML = "";
 		foreach ($sponsors as $sponsor) {

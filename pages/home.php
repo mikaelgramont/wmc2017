@@ -35,7 +35,7 @@
 
 <p class="emphasis">
 	<a href="<?php echo BASE_URL ?>results-2017">2017 results are in! Check them out!</a> 
-	<span>They are subject to change after we double check official boardercross times though, so please bear with us.Also, our apologies for getting some of the Freestyle results mixed up earlier, all fixed now.</span>
+	<span>Now updated with boardercross times!</span>
 </p>
 
 <p class="emphasis badge-container">

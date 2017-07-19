@@ -28,7 +28,7 @@
 
 </style>
 
-<p>The competition is over, here are the <em>*temporary*</em> results. They are most likely correct, but we are waiting for the official boardercross times from the company who ran the amazing timing system, which means some small changes might occur. Bear with us :)</p>
+<p>The competition is over, here are the results. </p>
 <ul>
 	<li><a href="#overall">Overall champions</a></li>
 	<li><a href="#freestyle-open">Freestyle - Open</a></li>
@@ -40,6 +40,9 @@
 	<li><a href="#freestyle-ladies">Freestyle - Ladies</a></li>
 	<li><a href="#boardercross-ladies">Boardercross - Ladies</a></li>
 </ul>
+
+<p>Boardercross timed runs: <a href="<?php echo BASE_URL?>2017-times.pdf">official times can be found here</a></p>
+
 
 <div class="results-container">
 	<a name="overall"></a>
@@ -450,18 +453,22 @@
 		</tr>
 		<tr>
 			<td>6</td>
-			<td>Vincent Messines</td>
+			<td>Flavio Nottalgiovanni</td>
 		</tr>
 		<tr>
 			<td>7</td>
-			<td>Vincent Lavaud</td>
+			<td>Vincent Messines</td>
 		</tr>
 		<tr>
 			<td>8</td>
-			<td>Carlos Alberto Sabino</td>
+			<td>Vincent Lavaud</td>
 		</tr>
 		<tr>
 			<td>9</td>
+			<td>Carlos Alberto Sabino</td>
+		</tr>
+		<tr>
+			<td>10</td>
 			<td>German Hermo</td>
 		</tr>
 	</table>

@@ -35,11 +35,6 @@ $MENU_ENTRIES = array(
 		'file' => 'access.php'
 	],
 	(object) [
-		'title' => 'partners',
-		'url' => 'partners',
-		'file' => 'partners.php'
-	],
-	(object) [
 		'skipMenuEntry' => true,
 		'title' => 'results - 2017',
 		'url' => 'results-2017',
